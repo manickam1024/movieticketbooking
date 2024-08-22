@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800');
+
+
+body
+{
+overflow-x: hidden;
+}
+.card-container {
+    display: flex; /* Use flexbox layout */
+    position: relative;
+    top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url();
+    text-align: center;
+    
+  }
+  
+  .card {
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.2);
+    /* Adjust the width as needed */
+    margin: 10px; /* Add margin to separate cards */
+    align-items: center;
+    font-family: arial;
+    height: 450px;
+    margin-bottom: 30px;
+    width: 1400px;
+
+    
+    border-radius: 20px;
+    background-size: cover;
+    display: block;
+    background-position: 20% 30% ;
+    color: #242333;
+    position: relative;
+    right: 25px;
+    
+
+    
+  }
+  .info
+  {
+    background-color: #242333;
+    height: max-content;
+    height: 100%;
+    position: relative;
+    top: -24px;
+    width: 100%;
+    color: aliceblue;
+  background: linear-gradient(to right, rgb(32, 32, 53) calc(-510px + 60vw), rgba(32, 32, 53,0.8) 100%, rgba(32, 32, 53, 0.84) 100%);
+    border-radius: 20px;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+  
+  }
+  .card img {
+    border-radius: 20px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    opacity: 0.7;
+  }
+  
+  .card img:hover {
+    transform: scale(1.03);
+    transition: all 0.2s;
+  }
+  
+
+  body{
+    background-color: aliceblue;
+  }
+  
+  .card p
+  {
+    font-size :14px;;
+    position: relative;
+    right: 170px;
+    top: -20px;
+
+  }
+  .card h2
+  {
+    letter-spacing: 2px;
+    font-size: 30px;
+    right: 180px;
+
+  }
+ 
+ 
+  
+
+
+
+ 
+ 
+  .sub
+  {
+    top: -20px;
+  }
+  
+  
+  .disabled {
+          pointer-events: none;
+          opacity: 0.5;
+          position: relative;
+      }
+  
+      .loading-symbol {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 24px; /* Adjust the font size as needed */
+          z-index: 999;
+      }
+  
+  
+  
+  
+  .card img {
+    width: 300px;
+    height: 370px; /* Set the desired height for the images */
+    object-fit: cover; /* Crop images to fit container */
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    z-index: 2;
+  }
+  
+  body {
+    margin: 0;
+    display: grid;
+  }
+  .k, .ka {
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-weight: 501;
+  }
+  .k {
+    letter-spacing: 3px;
+    font-variant: small-caps;
+    position: relative; left:100px; top:-45px ;  
+  }
+  .ka {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: medium;
+  }
+  .ka:hover {
+    transform: scale(1.03);
+    
+  }
+  .e ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    height: 80px;
+    color: aliceblue;
+    font-family: arial;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .e li {
+    float: right;
+    position: relative;
+    top: -55px;
+    position: relative; right:20px; top:-100px ;opacity:0.8 ; 
+  
+  }
+  .e li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .e h2 {
+    position: relative;
+    left: 100px;
+    top: -45px;
+    opacity: 0.8;
+  }
+  .theatres.expanded {
+      height: 180px; /* Adjust the height as needed */
+  }
+  
+  h1 {
+    display: inline;
+    color: aliceblue;
+  }
+
+
+
+
+  
+  #container {
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    top: 70px;
+    z-index: -1;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: aliceblue;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+    
+  h2 {
+    position: relative;
+    top: -45px;
+    opacity: 0.8;
+    left: -250px;
+  }
+  
+  h4
+  {
+    position: relative;
+  
+  }
+
+  .des{
+    position: relative;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: small;
+    position: relative;
+    left: 210px;
+    width: 85%;
+    opacity: 0.8;
+    top: -15px;
+
+
+  }
+  .sub
+  {
+    position: relative;
+    top: -0px;
+    right: 47px;
+  
+  
+  }
+  .subs
+  {
+    position: relative;
+    top: 0px;
+    left: -75px;
+  
+  
+  }
+  .j
+  {
+    position:relative;
+     top:130px; 
+    right:-70px ;
+    z-index: 1;
+    opacity: 0.9;
+    
+  }
+  .hello{
+  position: relative;
+  top: 50px;
+  }
+  .div1
+  {
+    position: relative;
+    background-color: grey;
+    top: -10px;
+  
+  }
+  .d
+  {
+    height: 80px;
+    width: 80px;
+    background-color: grey;
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+    
+    margin-right: 40px;
+  
+  }
+  
+  button
+  {
+  width: 100%;
+  }
+ 
+  a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    
+  }
+  .d1{
+    position: relative;
+    top: 20px;
+  }
+  .date
+  {
+    height: 100px;
+    background-color:#242333;
+    width: 1400px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: -5px;
+    border-radius: 10px;
+    
+  }
+  .dates
+  {
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+    left: 230px;
+    border-radius: 5px;
+    &:hover
+    {
+      transform: scale(1.09);
+      transition: all 0.2s;
+    }
+  
+  }
+  .des
+  {
+    top: 130px;
+    left: 140px;
+    opacity: 0.8;
+  }
+
+
+
+  .date {
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+    /* Adjust the width as needed */
+    margin: 10px; /* Add margin to separate cards */
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    width: 1400px;
+    top: 100px;
+    position: relative;
+     display: flex;
+     left: 10px;
+     opacity: 0.9;
+     font-family: 'Montserrat', helvetica, arial, sans-serif;
+     font-weight: 600;
+  }
+
+
+
+  .theatre{
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.2);
+    /* Adjust the width as needed */
+    margin: 10px; /* Add margin to separate cards */
+    align-items: center;
+    font-family: arial;
+    height:max-content;
+    width: 1400px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    left: 10px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    border-top-left-radius: none;
+    border-top-right-radius: none ;
+    color: #242333;
+    padding-top:  10px;
+    
+     
+  }
+
+
+
+  .theatres 
+  {
+    box-shadow: 0px 0px 13px -7px ;
+  
+  background-color: aliceblue;
+    /* Adjust the width as needed */
+    margin: 10px; /* Add margin to separate cards */
+    align-items: center;
+    font-family: arial;
+    height: 80px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    width: 1320px;
+   left: 30px;
+   opacity: 0.9;
+  border-radius: 15px;
+    position: relative;
+    color: #242333;
+        font-family: 'Montserrat', helvetica, arial, sans-serif;
+
+    
+  }
+
+  .time
+  {
+  
+    height: 60px;
+    width: 60px;
+    background-color: grey;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 30px;
+  left: 470px;
+  border-radius: 10px;
+  &:hover
+  {
+    transform: scale(1.09);
+    transition: all 0.2s;
+  }
+  font-size :15px; 
+  font-weight: 600;
+    
+  }
+  .time p
+
+  {
+    position: relative;
+    top: 20px;
+  }
+
+  select
+  {
+    height: 30px;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+font-weight: 600;
+color: #242333;
+background-color: aliceblue;
+    width: 130px;
+    position: relative;
+right: 80px;
+    border-radius: 10px;
+
+    &:hover
+    {
+      transform: scale(1.05);
+      transition: all 0.2s;
+    }
+
+
+
+  }
